@@ -26,7 +26,7 @@ async function runExample() {
         console.log('State: ' + state.toString());
     }
 
-    digitalInput0.onError = (code, description) => {
+    digtalInput0.onError = (code, description) => {
         console.log('Description: ' + description.toString());
         console.log('----------');
     }
